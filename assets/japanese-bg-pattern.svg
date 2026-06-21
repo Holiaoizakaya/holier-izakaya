@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1200" aria-hidden="true">
+  <defs>
+    <pattern id="asanoha" width="96" height="96" patternUnits="userSpaceOnUse">
+      <path d="M48 0v96M0 48h96M14 14l68 68M82 14 14 82" fill="none" stroke="#b78345" stroke-width="1.2" opacity=".22"/>
+      <path d="M48 0 82 48 48 96 14 48Z" fill="none" stroke="#b78345" stroke-width="1" opacity=".16"/>
+    </pattern>
+    <pattern id="sakura" width="180" height="180" patternUnits="userSpaceOnUse">
+      <g fill="#e86984" opacity=".32">
+        <path d="M39 41c8-13 23-10 23 4 0 14-16 24-23 33-7-9-23-19-23-33 0-14 15-17 23-4Z"/>
+        <path d="M132 116c6-10 18-8 18 3 0 11-13 19-18 26-6-7-18-15-18-26 0-11 12-13 18-3Z"/>
+      </g>
+      <circle cx="39" cy="54" r="3" fill="#f4c2cc" opacity=".52"/>
+      <circle cx="132" cy="126" r="2.5" fill="#f4c2cc" opacity=".52"/>
+    </pattern>
+    <linearGradient id="fuji" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#315f88"/>
+      <stop offset="1" stop-color="#173a5a"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" x2="1">
+      <stop offset="0" stop-color="#1f6e98"/>
+      <stop offset=".52" stop-color="#214c7e"/>
+      <stop offset="1" stop-color="#c33b32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="1200" fill="#f2d9b1"/>
+  <rect width="1440" height="1200" fill="url(#asanoha)"/>
+  <rect width="1440" height="1200" fill="url(#sakura)"/>
+
+  <g opacity=".72">
+    <path d="M1040 88 1338 452H742Z" fill="url(#fuji)"/>
+    <path d="M1040 88 1133 202 1070 188 1036 232 997 184 943 204Z" fill="#fff7e8" opacity=".92"/>
+    <circle cx="1168" cy="138" r="54" fill="#d8271f" opacity=".2"/>
+  </g>
+
+  <g transform="translate(0 820)" opacity=".58">
+    <path d="M0 154c82-77 154-77 226 0s144 77 216 0 148-77 224 0 150 77 224 0 148-77 224 0 148 77 224 0 74-77 102-77v294H0Z" fill="url(#wave)"/>
+    <path d="M0 212c82-77 154-77 226 0s144 77 216 0 148-77 224 0 150 77 224 0 148-77 224 0 148 77 224 0" fill="none" stroke="#fff4d6" stroke-width="14" opacity=".36"/>
+    <path d="M0 274c82-77 154-77 226 0s144 77 216 0 148-77 224 0 150 77 224 0 148-77 224 0 148 77 224 0" fill="none" stroke="#fff4d6" stroke-width="8" opacity=".28"/>
+  </g>
+
+  <g opacity=".74">
+    <rect x="82" y="122" width="88" height="260" rx="8" fill="#d8271f"/>
+    <rect x="96" y="136" width="60" height="232" rx="6" fill="#ffcf4d"/>
+    <path d="M126 122V76" stroke="#173a5a" stroke-width="8" stroke-linecap="round"/>
+    <rect x="204" y="168" width="72" height="194" rx="8" fill="#173a5a"/>
+    <rect x="216" y="182" width="48" height="166" rx="6" fill="#f6bc42"/>
+  </g>
+
+  <g transform="translate(88 492)" opacity=".68">
+    <rect width="246" height="72" rx="8" fill="#c33b32"/>
+    <rect x="18" y="16" width="210" height="10" rx="5" fill="#ffd15a"/>
+    <rect x="18" y="42" width="146" height="10" rx="5" fill="#fff7e8"/>
+    <rect x="276" y="18" width="146" height="48" rx="7" fill="#173a5a"/>
+    <rect x="292" y="34" width="92" height="8" rx="4" fill="#ffd15a"/>
+  </g>
+
+  <g transform="translate(1040 560)" opacity=".62">
+    <rect width="210" height="72" rx="8" fill="#173a5a"/>
+    <rect x="18" y="17" width="132" height="10" rx="5" fill="#f6bc42"/>
+    <rect x="18" y="44" width="174" height="10" rx="5" fill="#e86984"/>
+    <rect x="230" y="-24" width="92" height="136" rx="8" fill="#d8271f"/>
+    <rect x="244" y="-8" width="64" height="104" rx="6" fill="#ffcf4d"/>
+  </g>
+</svg>
